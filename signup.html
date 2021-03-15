@@ -1,0 +1,56 @@
+<html>
+<head> 
+<title>Registration form</title>
+<link rel="stylesheet" href="reg.css" >
+</head>	
+<body>
+    <div class="form-group">
+<form method="POST" action="Registration.php">
+	Name: <input type = "text" name = "Name" />
+	<br>
+	Username: <input type = "text" name = "username" />
+	
+	<br>
+	Gender:
+	<br>
+	<input type = "radio" name = "gender" value = "male"> Male
+ 	<br>
+	<input type = "radio" name = "gender" value = "female"> Female
+	<br>
+	Address: <br />
+	<textarea rows = "3" cols = "30" name = "address">
+	</textarea>
+	<br>
+	Phone No.: <input type = "text" name = "phone_no" />
+	<br>
+	Email ID: <input type = "text" name = "email_id" />
+	<br>
+		
+	City:
+	<select name = "City">
+	<option value = "Mumbai" selected>Mumbai</option>
+	<option value = "Bhuj">Bhuj</option>
+	<option value = "Baroda">Baroda</option>
+	<option value = "Indore">Delhi</option>
+	</select>
+	<br>
+	State:
+	<select name = "State">
+	<option value = "Gujarat" selected>Gujarat</option>
+	<option value = "Maharastra">Maharastra</option>
+	<option value = "Bihar">Bihar</option>
+	<option value = "M.P.">M.P.</option>
+	</select>
+	<br>
+
+	Password: <input type = "password" name = "password" />
+	<br>
+	Confirm Password: <input type = "password" name = "conpassword" />
+	<br>
+	<a href="login.html">
+	<input type = "submit" name = "submit" value = "Submit" /></a>
+	<input type = "reset" name = "reset"  value = "Reset" />
+</form>
+</div>
+</body>	
+</html>
