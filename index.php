@@ -10,7 +10,7 @@
   <p class="title">Task Manager</p>
   <a href="login.html">Login</a>
   <a href="signup.html">Sign Up</a>  
-  <a class="active" href="/">Home</a>
+  <a class="active" href="index.php">Home</a>
 </div>
 
 <div class="tasks">
